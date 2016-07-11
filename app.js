@@ -8,8 +8,8 @@ if (supply !== Number) {
 
 
 function fizzbuzz(supply) {
-    for (i = 1; i < supply; i++) {
-        if (i % 15 === 0) {
+    for (i = 1; i <= supply; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
             document.write('FizzBuzz');
             document.write('<br/>');
         } else if (i % 3 === 0) {
